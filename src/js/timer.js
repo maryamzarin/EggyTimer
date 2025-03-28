@@ -23,5 +23,6 @@ function updateTimer(){
 
 
 window.onload = function() {
+    updateTimer();
     setInterval(updateTimer,1000);
 };

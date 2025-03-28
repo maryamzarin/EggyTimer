@@ -12,3 +12,9 @@ exitBtn.addEventListener("click", function() {
 });
 
 // should show the end image based on the dippy/soft/jammy/hard
+
+
+window.onload = function() {
+    let audio = new Audio("../assets/alarm_ring.mp3"); 
+    audio.play();
+};
